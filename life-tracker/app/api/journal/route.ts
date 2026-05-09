@@ -5,7 +5,7 @@ export async function GET(req: NextRequest) {
   const { searchParams } = req.nextUrl
   const date = searchParams.get('date')
   const month = searchParams.get('month')
-  if (date) return NextResponse.json(getJournalEntry(date))
+  if (date) return NextResponse.json(getJournalEntry(date) ?? null)
   if (month) return NextResponse.json(getMonthEntries(month))
   return NextResponse.json(getJournalEntries())
 }
