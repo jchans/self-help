@@ -1,0 +1,1 @@
+Review all uncommitted changes. If everything looks good, stage all modified files, write a concise commit message (in English, imperative mood, one line), commit, and push to origin. If there are issues, describe them and ask before proceeding.
