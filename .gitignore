@@ -1,0 +1,9 @@
+# Claude Code local settings
+.claude/settings.local.json
+
+# life-tracker build artifacts and dependencies
+life-tracker/.next/
+life-tracker/node_modules/
+life-tracker/data/*.db
+life-tracker/data/*.db-shm
+life-tracker/data/*.db-wal
